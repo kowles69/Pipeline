@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: GeoIndicateurs
+Version: 2.0.0
+Summary: Analyse de données géospatiales et calcul d'indicateurs
+Author: Besnier Jean-Baptiste 
+Author-email: jbesnier@grandlyon.com
+Keywords: gis,spatial analysis,indicators
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.8
+Requires-Dist: datetime
+Requires-Dist: pandas
+Requires-Dist: pickle-mixin
+Requires-Dist: pathlib
+Requires-Dist: python-dotenv
+Requires-Dist: sqlalchemy
+Requires-Dist: futures
+Requires-Dist: geopandas
+Requires-Dist: openpyxl
+Requires-Dist: xlrd
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

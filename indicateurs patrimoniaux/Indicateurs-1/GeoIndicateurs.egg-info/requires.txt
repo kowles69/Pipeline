@@ -1,0 +1,10 @@
+datetime
+pandas
+pickle-mixin
+pathlib
+python-dotenv
+sqlalchemy
+futures
+geopandas
+openpyxl
+xlrd

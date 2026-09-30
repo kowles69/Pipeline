@@ -1,0 +1,539 @@
+{
+  "description": "Indicateurs supplémentaires PPI — linéaires travaux 2020-2025 et données OGEP. Toutes les longueurs en mètres (m) sauf OGEP en km.",
+  "sources": {
+    "2020": "L:\\EGDD\\DAEA\\PAG\\E_GDP\\Projets transversaux\\Rapport Autosurveillance\\2021_Apports GDP\\Bilan_annuel_assainissement_12022021.xlsx",
+    "2021": "L:\\EGDD\\DAEA\\PAG\\E_GDP\\Projets transversaux\\Rapport Autosurveillance\\2022_Apports GDP\\RA 2022 Bilan_annuel_Travaux_11022022.xlsx",
+    "2022": "L:\\EGDD\\DAEA\\PAG\\E_GDP\\Projets transversaux\\Rapport Autosurveillance\\2023_Apports GDP\\RA 2023 Bilan_annuel_assainissement_réalisés 2022_17022023.xlsx",
+    "2023": "L:\\EGDD\\DAEA\\PAG\\E_GDP\\Projets transversaux\\Rapport Autosurveillance\\2024_Apports GDP\\RA 2024 Bilan_annuel_assainissement_réalisation 2023.xlsx",
+    "2024_2025": "H:\\DTEE\\EAU\\REMISE_OUVRAGE\\_BDD\\Suivi_réception et remise d'ouvrage.xlsx",
+    "ogep": "H:\\DTEE\\EAU\\OGEP\\_BDD\\Inventaire_OGEP.xlsx"
+  },
+  "lin_travaux_par_commune": {
+    "ALBIGNY-SUR-SAONE": {
+      "eu_renou_m": 172.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "BRON": {
+      "eu_renou_m": 2744.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "CALUIRE ET CUIRE": {
+      "eu_renou_m": 952.0,
+      "eu_ext_m": 90.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "CHAMPAGNE-AU-MONT-D OR": {
+      "eu_renou_m": 1890.0,
+      "eu_ext_m": 90.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "CHARBONNIERES-LES-BAINS": {
+      "eu_renou_m": 1281.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 393.0,
+      "ep_ext_m": 0
+    },
+    "CHASSIEU": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 23.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "COLLONGES-AU-MONT- D OR": {
+      "eu_renou_m": 56.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "CORBAS": {
+      "eu_renou_m": 1150.0,
+      "eu_ext_m": 225.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 10.0
+    },
+    "COUZON-AU-MONT-D OR": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 30.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "CRAPONNE": {
+      "eu_renou_m": 437.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "CURIS-AU-MONT-D OR": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 245.0
+    },
+    "DARDILLY": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 143.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "DECINES CHARPIEU": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 280.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "ECULLY": {
+      "eu_renou_m": 280.0,
+      "eu_ext_m": 142.0,
+      "ep_renou_m": 20.0,
+      "ep_ext_m": 0
+    },
+    "FEYZIN": {
+      "eu_renou_m": 100.0,
+      "eu_ext_m": 110.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "FLEURIEU-SUR-SAONE": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 197.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "FONTAINES SUR SAONE": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 4234.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "FONTAINES-SAINT-MARTIN": {
+      "eu_renou_m": 365.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "FRANCHEVILLE": {
+      "eu_renou_m": 228.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "GENAY": {
+      "eu_renou_m": 1029.5,
+      "eu_ext_m": 48.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 606.0
+    },
+    "GIVORS": {
+      "eu_renou_m": 1414.0,
+      "eu_ext_m": 454.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 583.0
+    },
+    "GRIGNY": {
+      "eu_renou_m": 511.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "IRIGNY": {
+      "eu_renou_m": 58.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "JONAGE": {
+      "eu_renou_m": 180.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LA MULATIERE": {
+      "eu_renou_m": 510.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LA TOUR DE SALVAGNY": {
+      "eu_renou_m": 60.0,
+      "eu_ext_m": 180.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LIMONEST": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 51.0,
+      "ep_renou_m": 20.0,
+      "ep_ext_m": 0
+    },
+    "LISSIEU": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 120.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LYON 1ER": {
+      "eu_renou_m": 607.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LYON 2EME": {
+      "eu_renou_m": 2348.0,
+      "eu_ext_m": 48.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LYON 3EME": {
+      "eu_renou_m": 2723.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LYON 4EME": {
+      "eu_renou_m": 188.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LYON 5EME": {
+      "eu_renou_m": 1030.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 147.0,
+      "ep_ext_m": 0
+    },
+    "LYON 6EME": {
+      "eu_renou_m": 790.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 81.0
+    },
+    "LYON 7EME": {
+      "eu_renou_m": 2013.2,
+      "eu_ext_m": 205.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LYON 8EME": {
+      "eu_renou_m": 1278.0,
+      "eu_ext_m": 288.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "LYON 9EME": {
+      "eu_renou_m": 4059.0,
+      "eu_ext_m": 402.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "MARCY-L ETOILE": {
+      "eu_renou_m": 130.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "MEYZIEU": {
+      "eu_renou_m": 395.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 1192.4
+    },
+    "MIONS": {
+      "eu_renou_m": 132.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "MONTANAY": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 100.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "NEUVILLE SUR SAONE": {
+      "eu_renou_m": 467.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 140.0,
+      "ep_ext_m": 0
+    },
+    "OULLINS": {
+      "eu_renou_m": 273.0,
+      "eu_ext_m": 235.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "PIERRE BENITE": {
+      "eu_renou_m": 670.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "POLEYMIEUX-AU-MONT-D OR": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 80.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "RILLIEUX LA PAPE": {
+      "eu_renou_m": 355.0,
+      "eu_ext_m": 170.0,
+      "ep_renou_m": 243.0,
+      "ep_ext_m": 0
+    },
+    "SAINT CYR AU MONT D OR": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 650.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "SAINT-DIDIER-AU-MONT-D OR": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 210.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "SAINT-GENIS-LAVAL": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 72.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 383.0
+    },
+    "SAINT-GENIS-LES-OLLIERES": {
+      "eu_renou_m": 100.0,
+      "eu_ext_m": 126.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "SAINTE FOY LES LYON": {
+      "eu_renou_m": 309.0,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "SATHONAY-CAMP": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 170.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "SATHONAY-VILLAGE": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 50.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "SOLAIZE": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 860.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "ST FONS": {
+      "eu_renou_m": 1338.3,
+      "eu_ext_m": 0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 320.0
+    },
+    "ST PRIEST": {
+      "eu_renou_m": 520.0,
+      "eu_ext_m": 2760.0,
+      "ep_renou_m": 338.0,
+      "ep_ext_m": 1213.0
+    },
+    "TASSIN-LA-DEMI-LUNE": {
+      "eu_renou_m": 745.0,
+      "eu_ext_m": 42.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 117.0
+    },
+    "VAULX EN VELIN": {
+      "eu_renou_m": 4465.0,
+      "eu_ext_m": 554.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "VENISSIEUX": {
+      "eu_renou_m": 4509.4,
+      "eu_ext_m": 435.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "VERNAISON": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 100.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "VILLEURBANNE": {
+      "eu_renou_m": 13964.4,
+      "eu_ext_m": 1991.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    }
+  },
+  "lin_travaux_par_annee": {
+    "2020": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 5123.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 2769.4
+    },
+    "2021": {
+      "eu_renou_m": 0,
+      "eu_ext_m": 1798.0,
+      "ep_renou_m": 0,
+      "ep_ext_m": 0
+    },
+    "2024": {
+      "eu_renou_m": 35915.0,
+      "eu_ext_m": 2118.0,
+      "ep_renou_m": 700.0,
+      "ep_ext_m": 577.0
+    },
+    "2025": {
+      "eu_renou_m": 20911.8,
+      "eu_ext_m": 6926.0,
+      "ep_renou_m": 601.0,
+      "ep_ext_m": 1404.0
+    }
+  },
+  "ogep_noue_km": {
+    "LYON 7EME": 69.922,
+    "VAULX EN VELIN": 80.076,
+    "SATHONAY-CAMP": 0.942,
+    "OULLINS": 0.223,
+    "ST PRIEST": 106.824,
+    "DECINES CHARPIEU": 178.233,
+    "MARCY-L ETOILE": 0.641,
+    "CHASSIEU": 20.096,
+    "IRIGNY": 0.32,
+    "LYON 6EME": 2.952,
+    "LYON 3EME": 0.507,
+    "LYON 2EME": 37.685,
+    "SAINT-GENIS-LAVAL": 0.22,
+    "RILLIEUX LA PAPE": 8.445,
+    "LYON 8EME": 0.029,
+    "CHARBONNIERES-LES-BAINS": 0.518,
+    "CAILLOUX-SUR-FONTAINES": 0.433,
+    "VENISSIEUX": 231.769,
+    "VILLEURBANNE": 40.918,
+    "LIMONEST": 5.089,
+    "SAINTE FOY LES LYON": 0.759,
+    "CHARLY": 6.026,
+    "FEYZIN": 6.32,
+    "COUZON-AU-MONT-D OR": 4.003,
+    "CORBAS": 5.884,
+    "FRANCHEVILLE": 31.591
+  },
+  "ogep_noue_surf_m2": {
+    "LYON 7EME": 4040.6,
+    "VAULX EN VELIN": 15830.5,
+    "SATHONAY-CAMP": 5392.7,
+    "OULLINS": 1487.8,
+    "ST PRIEST": 24328.2,
+    "DECINES CHARPIEU": 31388.4,
+    "MARCY-L ETOILE": 961.9,
+    "CHASSIEU": 28630.4,
+    "IRIGNY": 1354.0,
+    "LYON 6EME": 590.3,
+    "LYON 3EME": 3628.4,
+    "LYON 2EME": 1950.7,
+    "SAINT-GENIS-LAVAL": 1411.8,
+    "RILLIEUX LA PAPE": 509.0,
+    "LYON 8EME": 174.4,
+    "CHARBONNIERES-LES-BAINS": 648.0,
+    "CAILLOUX-SUR-FONTAINES": 594.7,
+    "VENISSIEUX": 9952.4,
+    "VILLEURBANNE": 4301.1,
+    "LIMONEST": 2751.4,
+    "SAINTE FOY LES LYON": 1213.1,
+    "CHARLY": 648.0,
+    "FEYZIN": 2784.9,
+    "COUZON-AU-MONT-D OR": 220.3,
+    "CORBAS": 100.3,
+    "FRANCHEVILLE": 1601.7
+  },
+  "ogep_tranchee_km": {
+    "CORBAS": 0.864,
+    "ST PRIEST": 46.914,
+    "VAULX EN VELIN": 14.365,
+    "LYON 8EME": 3.466,
+    "SOLAIZE": 0.068,
+    "VILLEURBANNE": 479.278,
+    "GIVORS": 11.891,
+    "MEYZIEU": 12.092,
+    "BRON": 267.895,
+    "LYON 3EME": 72.967,
+    "OULLINS": 0.051,
+    "DECINES CHARPIEU": 1.347,
+    "MIONS": 94.221,
+    "LYON 7EME": 102.192,
+    "VERNAISON": 0.269,
+    "CHARLY": 0.177,
+    "COLLONGES-AU-MONT- D OR": 0.076,
+    "IRIGNY": 0.051,
+    "JONAGE": 48.4,
+    "VENISSIEUX": 103.434,
+    "LYON 2EME": 80.961,
+    "SAINT-DIDIER-AU-MONT-D OR": 0.054,
+    "SAINT-GENIS-LAVAL": 17.527,
+    "MARCY-L ETOILE": 9.013,
+    "LYON 6EME": 47.232,
+    "CHARBONNIERES-LES-BAINS": 9.61,
+    "LIMONEST": 49.836,
+    "CHASSIEU": 0.268,
+    "SAINT-GENIS-LES-OLLIERES": 0.309,
+    "CAILLOUX-SUR-FONTAINES": 0.312,
+    "ST FONS": 5.802,
+    "FEYZIN": 1.029,
+    "RILLIEUX LA PAPE": 0.047,
+    "TASSIN-LA-DEMI-LUNE": 0.167,
+    "COUZON-AU-MONT-D OR": 3.357,
+    "CALUIRE ET CUIRE": 66.141,
+    "PIERRE BENITE": 1.009
+  },
+  "ogep_tranchee_surf_m2": {
+    "CORBAS": 769.4,
+    "ST PRIEST": 9546.6,
+    "VAULX EN VELIN": 4599.0,
+    "LYON 8EME": 5134.2,
+    "SOLAIZE": 93.2,
+    "VILLEURBANNE": 3921.9,
+    "GIVORS": 723.5,
+    "MEYZIEU": 4308.4,
+    "BRON": 1890.0,
+    "LYON 3EME": 2482.4,
+    "OULLINS": 254.7,
+    "DECINES CHARPIEU": 3859.6,
+    "MIONS": 3735.1,
+    "LYON 7EME": 5406.1,
+    "VERNAISON": 566.4,
+    "CHARLY": 322.3,
+    "COLLONGES-AU-MONT- D OR": 320.9,
+    "IRIGNY": 118.4,
+    "JONAGE": 248.5,
+    "VENISSIEUX": 1817.1,
+    "LYON 2EME": 1056.3,
+    "SAINT-DIDIER-AU-MONT-D OR": 154.3,
+    "SAINT-GENIS-LAVAL": 3764.5,
+    "MARCY-L ETOILE": 35.6,
+    "LYON 6EME": 212.6,
+    "CHARBONNIERES-LES-BAINS": 191.7,
+    "LIMONEST": 291.4,
+    "CHASSIEU": 379.0,
+    "SAINT-GENIS-LES-OLLIERES": 884.1,
+    "CAILLOUX-SUR-FONTAINES": 501.6,
+    "ST FONS": 158.9,
+    "FEYZIN": 0.0,
+    "RILLIEUX LA PAPE": 242.8,
+    "TASSIN-LA-DEMI-LUNE": 1528.6,
+    "COUZON-AU-MONT-D OR": 89.6,
+    "CALUIRE ET CUIRE": 333.6,
+    "PIERRE BENITE": 32.8
+  }
+}
